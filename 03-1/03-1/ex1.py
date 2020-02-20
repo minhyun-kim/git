@@ -50,3 +50,6 @@ scoredb = [ {'Name':'Lee', 'Score':30},
 print("Min:", min(scoredb, key=lambda person: person['Score']))
 print("Max:", max(scoredb, key=lambda person: person['Score']))
 print("TddMax:", max(scoredb, key=lambda person: person['Score']))
+print("Max:", max(scoredb, key=lambda person: person['Score']))
+print("Max:", max(scoredb, key=lambda person: person['Score']))
+
