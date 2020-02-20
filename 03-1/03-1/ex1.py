@@ -40,6 +40,7 @@ print("Min,Built-in:", min(numbers))
 print("Max,Built-in:", max(numbers))
 print("Sum,Built-in:", sum(numbers))
 print("Sum,Built-in:", sum(numbers))
+print("Sum,Built-in:", sum(numbers))
 
 scoredb = [ {'Name':'Lee', 'Score':30},
     {'Name':'Kim', 'Score':40},
@@ -48,5 +49,8 @@ scoredb = [ {'Name':'Lee', 'Score':30},
 
 print("Min:", min(scoredb, key=lambda person: person['Score']))
 print("Max:", max(scoredb, key=lambda person: person['Score']))
+print("TddMax:", max(scoredb, key=lambda person: person['Score']))
+print("Max:", max(scoredb, key=lambda person: person['Score']))
 print("Max:", max(scoredb, key=lambda person: person['Score']))
 print("TestMax:", max(scoredb, key=lambda person: person['Score']))
+
